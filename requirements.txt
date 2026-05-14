@@ -1,0 +1,30 @@
+# ──────────────────────────────────────────────────────────────────
+# depth-anything-v2-utd — Python dependencies
+# ──────────────────────────────────────────────────────────────────
+# Install:
+#   pip install -r requirements.txt
+#
+# Note: Depth Anything V2 itself must be cloned and installed
+# separately as a sibling directory — it is not on PyPI:
+#   git clone https://github.com/DepthAnything/Depth-Anything-V2.git
+#   cd Depth-Anything-V2 && pip install -e . && cd ..
+#
+# For edge deployment (NVIDIA Jetson Orin Nano), additional
+# packages are required:
+#   onnx, onnxruntime-gpu, tensorrt (JetPack-bundled)
+# ──────────────────────────────────────────────────────────────────
+
+
+
+torch>=2.1.0
+torchvision>=0.16.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+ImageHash>=4.3.1
+matplotlib>=3.7.0
+gradio>=4.0.0
+gradio_imageslider>=0.0.18
+onnx>=1.15.0
+onnxruntime>=1.17.0
