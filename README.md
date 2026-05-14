@@ -163,7 +163,7 @@ A small set of example images and their corresponding pseudo-depth maps is inclu
 ### 1. Clone this repository
 
 ```bash
-git clone <THIS>
+git clone https://github.com/josh-oliveira/DA_V2_UTD.git
 cd DA_V2_UTD
 ```
 
